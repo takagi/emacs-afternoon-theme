@@ -49,7 +49,7 @@
        (background (if 256color "#1c1c1c" "#181a26"))
        (current-line (if 256color "#121212" "#14151E"))
        (block-background (if 256color "#262626" "#1F2232"))
-       (selection "#103050")
+       (selection "#303030")
        (foreground "#eaeaea")
        (comment "#969896")
        (red "#d54e53")
@@ -165,7 +165,7 @@
    `(border-glyph ((,class (nil))))
    `(highlight ((,class (:inverse-video nil :background ,current-line))))
    `(gui-element ((,class (:background ,current-line :foreground ,foreground))))
-   `(mode-line ((,class (:foreground nil :background ,current-line
+   `(mode-line ((,class (:foreground ,orange :background ,current-line
                                      :box (:line-width 1 :color ,foreground)
                                      :family "Lucida Grande"))))
    `(mode-line-buffer-id ((,class (:foreground ,purple :background nil))))
